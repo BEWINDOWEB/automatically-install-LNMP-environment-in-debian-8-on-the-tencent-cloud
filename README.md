@@ -1,10 +1,13 @@
 # automatically install LNMP environment in debian 8 on the tencent cloud
-# version 1.0
-# 2018.5.28
+## version 1.0
+## 2018.5.28
 
 ## 1. HOW TO USE?
 1) be sure you have installed the **debian 8.2(64 bit)** on the **tencent cloud** server
-2) upload the *autoInstallLNMP.sh* to the server by ftp OR use *wget "https://github.com/BEWINDOWEB/......."*
+2) upload the *autoInstallLNMP.sh* to the server by ftp OR use 
+```
+wget "https://github.com/BEWINDOWEB/automatically-install-LNMP-environment-in-debian-8-on-the-tencent-cloud.git"
+```
 3) run the shell
 ```
 chmod 755 autoInstallLNMP.sh
@@ -35,7 +38,10 @@ welcome to propose issues, and forgive me for poor English, my website is [www.b
 
 ## 1. 如何使用？
 1) 首先在腾讯云服务器上安装debian 8.2(64位)
-2) 用FTP上传*autoInstallLNMP.sh*或者用*wget "https://github.com/BEWINDOWEB/......."*的方式，把脚本文件传到服务器上
+2) 用FTP上传*autoInstallLNMP.sh*或者用wget的方式，把脚本文件传到服务器上：
+```
+wget "https://github.com/BEWINDOWEB/automatically-install-LNMP-environment-in-debian-8-on-the-tencent-cloud.git"
+```
 3) 运行脚本
 ```
 chmod 755 autoInstallLNMP.sh

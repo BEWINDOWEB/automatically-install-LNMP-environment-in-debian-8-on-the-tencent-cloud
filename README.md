@@ -4,7 +4,7 @@
 ![系统需要debian8.2 64位](https://img.shields.io/badge/debian-8.2(64%20bit)-orange.svg)
 ![PHP7.0以上](https://img.shields.io/badge/php-%E2%89%A57.0-blue.svg)
 ![nginx1.12以上](https://img.shields.io/badge/nginx-%E2%89%A51.12-blue.svg)
-![mysql5.6/5.7/8.0](https://img.shields.io/badge/mysql-%E2%89%A51.12-5.6/5.7/8.0.svg)
+![mysql5.6/5.7/8.0](https://img.shields.io/badge/mysql-5.6/5.7/8.0-blue.svg)
 
 ## 1. HOW TO USE?
 1) be sure you have installed the **debian 8.2(64 bit)** on the **tencent cloud** server

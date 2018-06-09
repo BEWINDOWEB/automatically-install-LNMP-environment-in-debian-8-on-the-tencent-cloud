@@ -1,15 +1,19 @@
 # automatically install LNMP environment in debian 8 on the tencent cloud
-## version 1.0
-## 2018.5.28
+![通过测试](https://img.shields.io/badge/build-passing-green.svg)
+![主机需要腾讯云](https://img.shields.io/badge/server-tencentcloud-orange.svg)
+![系统需要debian8.2 64位](https://img.shields.io/badge/debian-8.2(64%20bit)-orange.svg)
+![PHP7.0以上](https://img.shields.io/badge/php-%E2%89%A57.0-blue.svg)
+![nginx1.12以上](https://img.shields.io/badge/nginx-%E2%89%A51.12-blue.svg)
+![mysql5.6/5.7/8.0](https://img.shields.io/badge/mysql-%E2%89%A51.12-5.6/5.7/8.0.svg)
 
 ## 1. HOW TO USE?
 1) be sure you have installed the **debian 8.2(64 bit)** on the **tencent cloud** server
 2) upload the *autoInstallLNMP.sh* to the server by ftp OR use 
-```
+```sh
 wget "https://github.com/BEWINDOWEB/automatically-install-LNMP-environment-in-debian-8-on-the-tencent-cloud.git"
 ```
 3) run the shell
-```
+```sh
 chmod 755 autoInstallLNMP.sh
 ./autoInstallLNMP.sh
 ```
@@ -39,18 +43,18 @@ welcome to propose issues, and forgive me for poor English, my website is [www.b
 ## 1. 如何使用？
 1) 首先在腾讯云服务器上安装debian 8.2(64位)
 2) 用FTP上传*autoInstallLNMP.sh*或者用wget的方式，把脚本文件传到服务器上：
-```
+```sh
 wget "https://github.com/BEWINDOWEB/automatically-install-LNMP-environment-in-debian-8-on-the-tencent-cloud.git"
 ```
 3) 运行脚本
-```
+```sh
 chmod 755 autoInstallLNMP.sh
 ./autoInstallLNMP.sh
 ```
 4) 在运行过程中，你可以选择mysql-server的版本 *5.6/5.7/8.0* , 推荐使用5.6版本，默认是最新版本8.0
 5) 在运行过程中，你需要设置mysql-server的*登录密码*
 
-## 2. 我怎么直到我安装成功了?
+## 2. 我怎么知道我安装成功了?
 1) 如果你顺利安装，它会提示：*"Finished! Please Input your IP address in the browser,and then you can see the result."*
 2) 你可以在浏览器地址栏输入ip地址，预期应该能看到如下页面：
 ```

@@ -11,7 +11,7 @@
 1) 首先在腾讯云服务器上安装debian 8.2(64位)
 2) 用FTP上传*autoInstallLNMP.sh*或者用wget的方式，把脚本文件传到服务器上：
 ```sh
-wget "https://github.com/BEWINDOWEB/automatically-install-LNMP-environment-in-debian-8-on-the-tencent-cloud.git"
+wget "https://github.com/BEWINDOWEB/automatically-install-LNMP-environment-in-debian-8-on-the-tencent-cloud/archive/master.zip"
 ```
 3) 运行脚本
 ```sh

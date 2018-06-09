@@ -5,8 +5,8 @@
 ![PHP7.0以上](https://img.shields.io/badge/php-%E2%89%A57.0-blue.svg)
 ![nginx1.12以上](https://img.shields.io/badge/nginx-%E2%89%A51.12-blue.svg)
 ![mysql5.6/5.7/8.0](https://img.shields.io/badge/mysql-5.6/5.7/8.0-blue.svg)
-		>一个在腾讯云Debian系统上自动搭建LNMP环境的脚本。
-		>A script for automatically building LNMP environment on Tencent cloud Debian system.
+>一个在腾讯云Debian系统上自动搭建LNMP环境的脚本。
+>A script for automatically building LNMP environment on Tencent cloud Debian system.
 ## 1. 如何使用？
 1) 首先在腾讯云服务器上安装debian 8.2(64位)
 2) 用FTP上传*autoInstallLNMP.sh*或者用wget的方式，把脚本文件传到服务器上：

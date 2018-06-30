@@ -8,8 +8,8 @@
 >一个在腾讯云Debian系统上自动搭建LNMP环境的脚本。<br>
 >A script for automatically building LNMP environment on Tencent cloud Debian system.  
 
-<font color=#A3CD39>在腾讯云广州服务器debian8.2（64位）运行良好</font>  
-<font color=#F75940>2018年6月30日测试，百度云苏州服务器debian 8.1.0 amd64(64位)系统同样可用，但由于网络链路不同，下载mysql的速度较慢</font>  
+<font color="#A3CD39">在腾讯云广州服务器debian8.2（64位）运行良好</font>  
+<font color="#F75940">2018年6月30日测试，百度云苏州服务器debian 8.1.0 amd64(64位)系统同样可用，但由于网络链路不同，下载mysql的速度较慢</font>  
 
 ## 1. 如何使用？
 1) 首先在腾讯云服务器上安装debian 8.2(64位)
